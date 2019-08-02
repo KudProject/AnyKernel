@@ -4,19 +4,19 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=
+kernel.string=KudProject Continuous Integration Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
-do.cleanuponabort=0
-device.name1=
-supported.versions=
+do.cleanuponabort=1
+device.name1=grus
+supported.versions=9-10
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=;
+block=/dev/block/platform/soc/1d84000.ufshc/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 no_block_display=true;
