@@ -4,10 +4,9 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=KudProject Continuous Integration Kernel
+kernel.string=MoeSyndrome Kernel for Xiaomi Mi 9 SE
 do.devicecheck=1
 do.modules=0
-do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
 device.name1=grus
