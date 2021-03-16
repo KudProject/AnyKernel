@@ -10,7 +10,7 @@ do.modules=0
 do.cleanup=1
 do.cleanuponabort=1
 device.name1=grus
-supported.versions=10-11
+supported.versions=11-
 supported.patchlevels=
 '; } # end properties
 
